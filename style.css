@@ -1,0 +1,76 @@
+* {
+    padding : 0px;
+    margin : 0px;
+}
+
+
+#container {
+    height : 30rem;
+    width : 30rem;
+    border : 2px solid black;
+    margin-left : 32rem;
+    margin-top : 5rem;
+    display : flex;
+    flex-direction: column;
+     align-items: center;
+   background-color: aquamarine;
+   overflow-y: auto;           /* Vertical scroll enable */
+    word-break: break-word;     /* Lambi words ko wrap karna */
+    padding: 10px;              /* Thoda padding for readability */
+  
+
+}
+
+h1 {
+    width : 15rem;
+    border : 2px solid black;
+    text-align: center;
+    margin-top : 2rem;
+    background-color: rgb(33, 161, 157);
+    color : white;
+}
+
+.search{
+    height: 2.5rem;
+    margin-top : 2rem;
+}
+
+input{
+    width : 20rem;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-style: italic;
+    font-size: medium;
+}
+
+#btn {
+    width : 4rem;
+    background-color: rgb(155, 148, 148); 
+    font-size: medium;
+    color : white;
+    
+}
+
+#task-list li{
+    margin-top : 2rem;
+    margin-right : 10rem;
+}
+
+
+.taskitem {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    padding : 10rem;
+}
+
+.deleteBtn {
+    height: 2rem;
+    width : 3rem;
+    margin-left : 5rem;
+    background-color: rgb(149, 149, 149);
+    color : white;
+}
+
+
+
